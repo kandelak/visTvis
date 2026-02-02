@@ -12,6 +12,12 @@ license = { text = "MIT" }
 requires-python = ">=3.10"
 dependencies = [
     "torch>=2.2.0",
+    "PyYAML~=6.0.3",
+    "pydantic~=2.12.5",
+    "numpy~=2.2.6",
+    "matplotlib~=3.10.8",
+    "pillow~=12.1.0",
+    "tqdm~=4.67.2"
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -24,7 +30,7 @@ Homepage = "https://github.com/kandelak/visTvis"
 Repository = "https://github.com/kandelak/visTvis"
 
 [tool.setuptools]
-package-dir = {"" = "src"}
+package-dir = { "" = "src" }
 
 [tool.setuptools.packages.find]
 where = ["src"]
