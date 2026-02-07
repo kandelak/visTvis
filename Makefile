@@ -23,3 +23,6 @@ install: .venv/bin/uv
 
 build-package:
 	.venv/bin/python3 -m build --sdist
+
+upload-package:
+	.venv/bin/python3 -m twine upload dist/*
