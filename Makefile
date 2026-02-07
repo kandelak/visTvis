@@ -20,3 +20,9 @@ INFO := @bash -c '\
 
 install: .venv/bin/uv 
 	.venv/bin/python3 -m uv pip install -r requirements.txt
+
+build-package:
+	.venv/bin/python3 -m build --sdist
+
+push-package: build-package
+	twine upload -r satellite-utils dist/*

@@ -81,10 +81,10 @@ plot_attention_for_reconstruction("./overlays_demo")
 ## Demo
 
 ### Choose Query Patches Interactively from frame N
-![Interactive example](content/vis_demo.gif)
+![Interactive example](https://raw.githubusercontent.com/kandelak/visTvis/refs/heads/main/content/vis_demo.gif)
 
 ### Get per-layer-head attention overlays on frame M
-![Overlay example](content/img.png)
+![Overlay example](https://raw.githubusercontent.com/kandelak/visTvis/refs/heads/main/content/img.png)
 
 
 ## Publishing
