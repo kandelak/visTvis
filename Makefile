@@ -23,6 +23,3 @@ install: .venv/bin/uv
 
 build-package:
 	.venv/bin/python3 -m build --sdist
-
-push-package: build-package
-	twine upload -r satellite-utils dist/*
