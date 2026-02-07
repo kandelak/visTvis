@@ -81,12 +81,9 @@ plot_attention_for_reconstruction("./overlays_demo")
 ## Demo
 
 ### Choose Query Patches Interactively from frame N
-<video src="content/vis_demo.mov" controls width="720">
-Your browser does not support the video tag. You can download it from
-<a href="content/vis_demo.mov">content/vis_demo.mov</a>.
-</video>
+![Interactive example](content/vis_demo.gif)
 
-### Get per-layer-head attention overlays
+### Get per-layer-head attention overlays on fram M
 ![Overlay example](content/img.png)
 
 
