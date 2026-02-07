@@ -78,6 +78,18 @@ run_overlay_for_reconstruction(
 plot_attention_for_reconstruction("./overlays_demo")
 ```
 
+## Demo
+
+### Choose Query Patches Interactively from frame N
+<video src="content/vis_demo.mov" controls width="720">
+Your browser does not support the video tag. You can download it from
+<a href="content/vis_demo.mov">content/vis_demo.mov</a>.
+</video>
+
+### Get per-layer-head attention overlays
+![Overlay example](content/img.png)
+
+
 ## Publishing
 
 - Update `pyproject.toml` metadata.
