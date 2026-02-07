@@ -83,7 +83,7 @@ plot_attention_for_reconstruction("./overlays_demo")
 ### Choose Query Patches Interactively from frame N
 ![Interactive example](content/vis_demo.gif)
 
-### Get per-layer-head attention overlays on fram M
+### Get per-layer-head attention overlays on frame M
 ![Overlay example](content/img.png)
 
 
