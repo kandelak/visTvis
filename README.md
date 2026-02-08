@@ -1,10 +1,19 @@
-# visTvis
+# visTvis (Visual Transformer Visualizer)
 
 Store and visualize attention weights from Vision Transformers in a model-agnostic way. The package ships two decorators:
 
 - `@visTvis_store` saves a return value tensor to disk with a predictable folder layout.
 - `@visTvis_layer_counter` injects an int-like counter that keeps track of which layer is currently active so saved files end up in the right slot.
 - Visualization helpers overlay attention on input frames and stack results into PDFs.
+
+## Demo
+
+### Choose Query Patches Interactively from frame N
+![Interactive example](https://raw.githubusercontent.com/kandelak/visTvis/refs/heads/main/content/vis_demo.gif)
+
+### Get per-layer-head attention overlays on frame M
+![Overlay example](https://raw.githubusercontent.com/kandelak/visTvis/refs/heads/main/content/img.png)
+
 
 ## Installation
 
@@ -77,17 +86,3 @@ run_overlay_for_reconstruction(
 
 plot_attention_for_reconstruction("./overlays_demo")
 ```
-
-## Demo
-
-### Choose Query Patches Interactively from frame N
-![Interactive example](https://raw.githubusercontent.com/kandelak/visTvis/refs/heads/main/content/vis_demo.gif)
-
-### Get per-layer-head attention overlays on frame M
-![Overlay example](https://raw.githubusercontent.com/kandelak/visTvis/refs/heads/main/content/img.png)
-
-
-## Publishing
-
-- Update `pyproject.toml` metadata.
-- Build and upload with `python -m build` followed by `twine upload dist/*`.
