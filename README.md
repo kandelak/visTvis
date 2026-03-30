@@ -1,4 +1,4 @@
-# visTvis (Visual Transformer Visualizer)
+# visTvis (Vision Transformer Visualizer)
 
 Store and visualize attention weights from Vision Transformers in a model-agnostic way. The package ships two decorators:
 
